@@ -4,7 +4,8 @@ SOLID principles is a design principle which helps us acheive -
 - Maintainability
 - Testability
 - Extensibility
-<br>
+
+
 #### **Single Responsibility Principle**
 
 > A class should have only one reason to change and should take care of a Single Responsibility.

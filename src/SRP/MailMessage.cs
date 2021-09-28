@@ -23,25 +23,25 @@ namespace SRP
 	*/
 
     public class MailMessage : IMessage
-	{
-		private readonly ILogger _logger;
+    {
+        private readonly ILogger _logger;
         public MailMessage(ILogger logger)
         {
-			_logger = logger;
+            _logger = logger;
         }
 
-		public bool Send()
-		{
-			try
-			{
-				return true;
-			}
-			catch (Exception ex)
-			{
-				//Error Logging
-				_logger.Error(ex.Message, ex);
-				return false;
-			}
-		}
-	}
+        public bool Send()
+        {
+            try
+            {
+                return true;
+            }
+            catch (Exception ex)
+            {
+                //Error Logging
+                _logger.Error(ex.Message, ex);
+                return false;
+            }
+        }
+    }
 }

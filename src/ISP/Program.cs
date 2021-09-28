@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string content = "Testing";
-            
+
             // Implements IPrinterTasks, IFaxTasks and IPrintDuplexTasks
             LaserJetPrinter printer = new();
             printer.Print(content);

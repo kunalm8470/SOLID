@@ -4,8 +4,8 @@ namespace SRP
 {
     public interface ILogger
     {
-        void Info(string info);
-        void Debug(string info);
-        void Error(string message, Exception ex);
+        public void Info(string info);
+        public void Debug(string info);
+        public void Error(string message, Exception ex);
     }
 }

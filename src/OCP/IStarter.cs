@@ -2,9 +2,9 @@
 {
     public interface IStarter
     {
-        string Brand { get; set; }
-        string Model { get; set; }
-        IgnitionResult Start();
+        public string Brand { get; set; }
+        public string Model { get; set; }
+        public IgnitionResult Start();
     }
 
     public enum IgnitionResult

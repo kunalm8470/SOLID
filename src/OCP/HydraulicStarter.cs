@@ -1,6 +1,6 @@
 ﻿namespace OCP
 {
-    public class HydraulicStarter: IStarter
+    public class HydraulicStarter : IStarter
     {
         public string Brand { get; set; }
 

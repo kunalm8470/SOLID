@@ -1,6 +1,6 @@
 ﻿namespace ISP
 {
-    class LaserJetPrinter : IPrinterTasks, IFaxTasks, IPrintDuplexTasks
+    public class LaserJetPrinter : IPrinterTasks, IFaxTasks, IPrintDuplexTasks
     {
         public void Print(string content)
         {

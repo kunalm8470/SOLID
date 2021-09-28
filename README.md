@@ -21,7 +21,7 @@ SOLID principles is a design principle which helps us acheive -
 
 #### **Interface Segregation Principle**
 
-> Instead of creating fat interfaces, aim for creating multiple smaller interfaces with the aim that the client can consume when needed.
+> Instead of creating fat interfaces, aim for creating multiple smaller interfaces that the client can consume when needed.
 
 #### **Dependency Inversion Principle**
 

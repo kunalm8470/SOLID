@@ -1,6 +1,6 @@
 ﻿namespace DIP
 {
-    public class SQLServerProvider : IDataProvider
+    public class SqlServerProvider : IDataProvider
     {
         public void Add()
         {

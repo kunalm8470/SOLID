@@ -1,8 +1,8 @@
 ﻿namespace DIP
 {
-    public class MySqlProvider : IDataProvider
+    public class FileLogger : ILogger
     {
-        public void Add()
+        public void Log()
         {
             // Implementation goes here
         }

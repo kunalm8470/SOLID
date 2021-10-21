@@ -4,20 +4,16 @@
     {
         // High level module is depending on abstraction (interface)
         // and not on concrete implementation
-        private readonly IDataProvider _dataProvider;
-        public Customer(IDataProvider dataProvider)
+        private readonly ILogger _logger;
+        public Customer(ILogger logger)
         {
-            _dataProvider = dataProvider;
+            _logger = logger;
         }
 
-        public bool Validate() => true;
-
-        public void Add()
+        public override string ToString()
         {
-            if (Validate())
-            {
-                _dataProvider.Add();
-            }
+            _logger.Log();
+            return base.ToString();
         }
     }
 }

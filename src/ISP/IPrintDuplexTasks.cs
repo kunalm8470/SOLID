@@ -1,7 +1,7 @@
 ﻿namespace ISP
 {
-    interface IPrintDuplexTasks
+    public interface IPrintDuplexTasks
     {
-        void PrintDuplex(string content);
+        public void PrintDuplex(string content);
     }
 }

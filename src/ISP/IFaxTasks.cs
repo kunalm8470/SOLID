@@ -1,7 +1,7 @@
 ﻿namespace ISP
 {
-    interface IFaxTasks
+    public interface IFaxTasks
     {
-        void Fax(string content);
+        public void Fax(string content);
     }
 }

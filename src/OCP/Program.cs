@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Engine e = new(new HydraulicStarter());
-            e.Start();
+            OrderProcessor processor = new(new OrderValidator(),
+               new InMemoryOrderStore(),
+               new OrderNotifier()
+            );
+
+            processor.Process();
         }
     }
 }

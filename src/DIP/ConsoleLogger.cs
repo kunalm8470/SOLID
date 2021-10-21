@@ -1,8 +1,8 @@
 ﻿namespace DIP
 {
-    public class SqlServerProvider : IDataProvider
+    public class ConsoleLogger : ILogger
     {
-        public void Add()
+        public void Log()
         {
             // Implementation goes here
         }

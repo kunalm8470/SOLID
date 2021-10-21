@@ -6,11 +6,8 @@ namespace LSP
     {
         static void Main(string[] args)
         {
-            Fruit fruit = new Orange();
-            Console.WriteLine(fruit.GetColor());
-
-            fruit = new Apple();
-            Console.WriteLine(fruit.GetColor());
+            Bird donald = new Duck();
+            (donald as Duck).Swim();
         }
     }
 }

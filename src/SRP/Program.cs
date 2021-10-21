@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            MailMessage msg = new(new FileLogger());
-            msg.Send();
+            OrderProcessor processor = new(new OrderValidator(),
+                new OrderStore(),
+                new OrderNotifier()
+            );
+
+            processor.Process();
         }
     }
 }

@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Customer john = new(new MySqlProvider());
-            john.Add();
+            Customer john = new(new ConsoleLogger());
+            john.ToString();
         }
     }
 }
